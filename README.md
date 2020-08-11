@@ -1,4 +1,7 @@
-# income_tax_data
-Extract income tax data from FIA
+# income tax data
 
-從財政部公佈的核定所得清冊抓取資料。
+把財政部公佈的年度綜合所得稅申報初步核定統計專冊中村里統計數據從html檔案下爬取下來，存成csv並稍加清理。
+
+我只處理到鄉鎮市區層級，原始資料包含村里層級資料，但沒有清理過。
+
+我使用python爬取財政部的資料，後續則使用STATA清理。python程式碼相當凌亂，僅供參考。
